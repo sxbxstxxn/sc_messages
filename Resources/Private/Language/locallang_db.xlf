@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-04-03T23:20:27Z" product-name="sc_messages">
+		<header/>
+		<body>
+			<trans-unit id="tx_sc_messages_messages.name">
+				<source>Messages</source>
+			</trans-unit>
+			<trans-unit id="tx_sc_messages_messages.description">
+				<source>Typo3 Extension for frontend users sind messages to other frontend users</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
