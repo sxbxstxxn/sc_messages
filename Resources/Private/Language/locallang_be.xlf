@@ -4,15 +4,9 @@
 		  product-name="sc_messages">
 		<header/>
 		<body>
-			<trans-unit id="plugin.userstatus">
-				<source>show online status of users (experimental, watch user manual)</source>
+			<trans-unit id="plugin.detailpid">
+				<source>PID of the messagedetail page</source>
 			</trans-unit>
-			<trans-unit id="plugin.usergroups">
-				<source>shown usergroups (if you want to show users from all groups select nothing)</source>
-			</trans-unit>
-            <trans-unit id="plugin.userpids">
-                <source>Location of user data</source>
-            </trans-unit>
 		</body>
 	</file>
 </xliff>

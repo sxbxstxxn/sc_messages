@@ -1,0 +1,12 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+    <f:security.ifAuthenticated>
+        <f:then>
+            <b>Nachrichtenliste von {user.username}</b>
+        </f:then>
+        <f:else>
+            <f:render partial="accessError"/>
+        </f:else>
+    </f:security.ifAuthenticated>
+</f:section>

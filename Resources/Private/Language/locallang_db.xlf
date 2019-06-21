@@ -3,12 +3,30 @@
 	<file source-language="en" datatype="plaintext" original="messages" date="2019-04-03T23:20:27Z" product-name="sc_messages">
 		<header/>
 		<body>
-			<trans-unit id="tx_sc_messages_messages.name">
-				<source>Messages</source>
+			<trans-unit id="tx_sc_messages_sendmessage.name">
+				<source>Send Messages</source>
 			</trans-unit>
-			<trans-unit id="tx_sc_messages_messages.description">
-				<source>Typo3 Extension for frontend users sind messages to other frontend users</source>
+			<trans-unit id="tx_sc_messages_sendmessage.description">
+				<source>Send Message Description</source>
 			</trans-unit>
+			<trans-unit id="tx_sc_messages_messagelist.name">
+				<source>Messagelist</source>
+			</trans-unit>
+			<trans-unit id="tx_sc_messages_messagelist.description">
+				<source>Messagelist Description</source>
+			</trans-unit>
+			<trans-unit id="tx_sc_messages_messagedetail.name">
+				<source>Messagedetail</source>
+			</trans-unit>
+			<trans-unit id="tx_sc_messages_messagedetail.description">
+				<source>Messagedetail Description</source>
+			</trans-unit>
+            <trans-unit id="tx_sc_messages_domain_model_message">
+                <source>Message123</source>
+            </trans-unit>
+            <trans-unit id="tx_sc_messages_domain_model_message.id">
+                <source>Message ID 123</source>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -1,7 +1,8 @@
 <?php
 namespace SebastianChristoph\ScMessages\Controller;
 
-
+use SebastianChristoph\ScMessages\Domain\Model\Message;
+use SebastianChristoph\ScMessages\Domain\Repository\MessageRepository;
 /**
  * Class ChatController
  *
@@ -9,34 +10,24 @@ namespace SebastianChristoph\ScMessages\Controller;
  */
 class MessagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-
-    /**
-     * FeRepository
-     *
-     * @var \TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository
-     * @TYPO3\CMS\Extbase\Annotation\Inject
-     */
-    protected $feRepository;
-
-    /**
-     * FeGroupRepository
-     *
-     * @var \TYPO3\CMS\Extbase\Domain\Repository\FrontendUserGroupRepository
-     * @TYPO3\CMS\Extbase\Annotation\Inject
-     */
-    protected $feGroupRepository;
-
     /**
      * list action
      *
      * @return void
      */
-    public function messagesAction()
+    public function sendmessageAction()
     {
-        var_dump($_POST);
+        var_dump('sendmessage');
+    }
+    public function messagelistAction()
+    {
         $this->view->assignMultiple([
-            'test' => $GLOBALS['TSFE']->fe_user->user['username'],
-            'testtest' => $GLOBALS['TSFE']->fe_user->user
+            'user' => $GLOBALS['TSFE']->fe_user->user,
+            'test' => 'Test'
         ]);
+    }
+    public function messagedetailAction()
+    {
+        var_dump('messagedetail');
     }
 }

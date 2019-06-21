@@ -1,0 +1,36 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>0</langDisable>
+    </meta>
+    <sheets>
+        <options>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>General Settings</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.detailPID>
+                        <TCEforms>
+                            <label>LLL:EXT:sc_messages/Resources/Private/Language/locallang_be.xlf:plugin.detailpid</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>pages</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                                <wizards>
+                                    <suggest>
+                                        <type>suggest</type>
+                                    </suggest>
+                                </wizards>
+                            </config>
+                        </TCEforms>
+                    </settings.detailPID>
+                </el>
+            </ROOT>
+        </options>
+    </sheets>
+</T3DataStructure>

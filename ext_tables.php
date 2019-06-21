@@ -7,8 +7,18 @@ call_user_func(
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
             'SebastianChristoph.sc_messages',
-            'messages',
-            'Messages'
+            'sendmessage',
+            'SendMessage'
+        );
+        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+            'SebastianChristoph.sc_messages',
+            'messagelist',
+            'Messagelist'
+        );
+        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+            'SebastianChristoph.sc_messages',
+            'messagedetail',
+            'MessageDetail'
         );
 
         \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('sc_messages', 'Configuration/TypoScript', 'SCMessages');

@@ -4,18 +4,10 @@
 		  product-name="sc_messages">
 		<header/>
 		<body>
-			<trans-unit id="plugin.userstatus">
-				<source>show online status of users (experimental, watch user manual)</source>
-				<target>Zeige den Online Status eines Benutzers (noch im Aufbau, beachte die Anleitung)</target>
+			<trans-unit id="plugin.detailpid">
+				<source>PID of the messagedetail page</source>
+				<target>PID der MessageDetail Seite</target>
 			</trans-unit>
-			<trans-unit id="plugin.usergroups">
-				<source>shown usergroups (if you want to show users from all groups select nothing)</source>
-				<target>Angezeigte Benutzergruppen (um alle User anzuzeigen einfach leer lassen)</target>
-			</trans-unit>
-            <trans-unit id="plugin.userpids">
-                <source>Location of user data</source>
-                <target>Speicherort der Benutzer</target>
-            </trans-unit>
 		</body>
 	</file>
 </xliff>
