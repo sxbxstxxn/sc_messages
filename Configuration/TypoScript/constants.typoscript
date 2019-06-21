@@ -1,15 +1,15 @@
 
-plugin.tx_sc_chat {
+plugin.tx_sc_messages {
     view {
-        # cat=plugin.tx_sc_chat/file; type=string; label=Path to template root (FE)
-        templateRootPath = EXT:sc_chat/Resources/Private/Templates/
-        # cat=plugin.tx_sc_chat/file; type=string; label=Path to template partials (FE)
-        partialRootPath = EXT:sc_chat/Resources/Private/Partials/
-        # cat=plugin.tx_sc_chat/file; type=string; label=Path to template layouts (FE)
-        layoutRootPath = EXT:sc_chat/Resources/Private/Layouts/
+        # cat=plugin.tx_sc_messages/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:sc_messages/Resources/Private/Templates/
+        # cat=plugin.tx_sc_messages/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:sc_messages/Resources/Private/Partials/
+        # cat=plugin.tx_sc_messages/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:sc_messages/Resources/Private/Layouts/
     }
     persistence {
-        # cat=plugin.tx_sc_chat//a; type=string; label=Default storage PID
+        # cat=plugin.tx_sc_messages//a; type=string; label=Default storage PID
         storagePid =
     }
 }

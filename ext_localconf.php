@@ -6,10 +6,10 @@ call_user_func(
     {
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-            'SebastianChristoph.sc_chat',
-            'chat',
+            'SebastianChristoph.sc_messages',
+            'messages',
             [
-                'Chat' => 'chat, sendmessage'
+                'Messages' => 'messages'
             ],
             // non-cacheable actions
             [
@@ -22,13 +22,13 @@ call_user_func(
         'mod {
             wizards.newContentElement.wizardItems.plugins {
                 elements {
-                    chat {
-                        iconIdentifier = sc_chat-plugin-chat
-                        title = LLL:EXT:sc_chat/Resources/Private/Language/locallang_db.xlf:tx_sc_chat_chat.name
-                        description = LLL:EXT:sc_chat/Resources/Private/Language/locallang_db.xlf:tx_sc_chat_chat.description
+                    messages {
+                        iconIdentifier = sc_messages-plugin-messages
+                        title = LLL:EXT:sc_messages/Resources/Private/Language/locallang_db.xlf:tx_sc_messages_messages.name
+                        description = LLL:EXT:sc_messages/Resources/Private/Language/locallang_db.xlf:tx_sc_messages_messages.description
                         tt_content_defValues {
                             CType = list
-                            list_type = scchat_chat
+                            list_type = scmessages_messages
                         }
                     }
                 }
@@ -39,9 +39,9 @@ call_user_func(
 		$iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
 		
 			$iconRegistry->registerIcon(
-				'sc_chat-plugin-chat',
+				'sc_messages-plugin-messages',
 				\TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-				['source' => 'EXT:sc_chat/Resources/Public/Icons/user_plugin_chat.svg']
+				['source' => 'EXT:sc_messages/Resources/Public/Icons/user_plugin_messages.svg']
 			);
 		
     }

@@ -1,5 +1,5 @@
 <?php
-namespace SebastianChristoph\ScChat\Controller;
+namespace SebastianChristoph\ScMessages\Controller;
 
 
 /**
@@ -7,7 +7,7 @@ namespace SebastianChristoph\ScChat\Controller;
  *
  * * @package SebastianChristoph\ScChat\Controller
  */
-class ChatController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+class MessagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 
     /**
@@ -31,7 +31,7 @@ class ChatController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
      *
      * @return void
      */
-    public function chatAction()
+    public function messageAction()
     {
         var_dump($_POST);
         $this->view->assignMultiple([

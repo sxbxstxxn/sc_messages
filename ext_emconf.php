@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'SC Chat',
-    'description' => 'Creates a very simple chat for frontend users in typo3',
+    'title' => 'SC Messages',
+    'description' => 'Typo3 Extension for frontend users sind messages to other frontend users',
     'category' => 'plugin',
     'author' => 'Sebastian Christoph',
     'author_email' => 'admin@sebastian-christoph.de',

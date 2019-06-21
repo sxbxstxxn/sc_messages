@@ -6,12 +6,12 @@ call_user_func(
     {
 
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-            'SebastianChristoph.sc_chat',
-            'chat',
-            'Chat'
+            'SebastianChristoph.sc_messages',
+            'messages',
+            'Messages'
         );
 
-        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('sc_chat', 'Configuration/TypoScript', 'SCChat');
+        \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile('sc_messages', 'Configuration/TypoScript', 'SCMessages');
 
     }
 );

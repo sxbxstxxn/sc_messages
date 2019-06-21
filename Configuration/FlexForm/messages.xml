@@ -12,7 +12,7 @@
                 <el>
                     <settings.usergroups>
                         <TCEforms>
-                            <label>LLL:EXT:sc_chat/Resources/Private/Language/locallang_be.xlf:plugin.usergroups</label>
+                            <label>LLL:EXT:sc_messages/Resources/Private/Language/locallang_be.xlf:plugin.usergroups</label>
                             <config>
                                 <type>select</type>
                                 <items type="array">
@@ -27,7 +27,7 @@
                     </settings.usergroups>
                     <settings.userPIDs>
                         <TCEforms>
-                            <label>LLL:EXT:sc_chat/Resources/Private/Language/locallang_be.xlf:plugin.userpids</label>
+                            <label>LLL:EXT:sc_messages/Resources/Private/Language/locallang_be.xlf:plugin.userpids</label>
                             <config>
                                 <type>group</type>
                                 <internal_type>db</internal_type>

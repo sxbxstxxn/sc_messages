@@ -20,10 +20,10 @@ Extension Name
    en
 
 :Description:
-    Creates a very simple chat for frontend users in typo3
+    Typo3 Extension for frontend users sind messages to other frontend users
 
 :Keywords:
-    chat
+    messages
 
 :Authors:
    Sebastian Christoph
@@ -49,11 +49,11 @@ Extension Name
    It is maintained as part of this third party extension.
 
    If you find an error or something is missing, please:
-   `Report a Problem <https://github.com/sxbxstxxn/sc_chat/issues/new>`__
+   `Report a Problem <https://github.com/sxbxstxxn/sc_messages/issues/new>`__
 
 **Extension Manual**
 
-   This documentation is for the TYPO3 extension sc_chat.
+   This documentation is for the TYPO3 extension sc_messages.
 
 
 

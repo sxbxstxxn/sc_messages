@@ -1,7 +1,7 @@
 {
-    "name": "SebastianChristoph/sc_chat",
+    "name": "SebastianChristoph/sc_messages",
     "type": "typo3-cms-extension",
-    "description": "Creates a very simple chat for frontend users in typo3",
+    "description": "Typo3 Extension for frontend users sind messages to other frontend users",
     "authors": [
         {
             "name": "Sebastian Christoph",
@@ -23,7 +23,7 @@
         }
     },
     "replace": {
-        "sc_chat": "self.version",
-        "typo3-ter/sc_chat": "self.version"
+        "sc_messages": "self.version",
+        "typo3-ter/sc_messages": "self.version"
     }
 }
