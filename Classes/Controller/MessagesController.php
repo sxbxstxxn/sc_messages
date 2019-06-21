@@ -5,7 +5,7 @@ namespace SebastianChristoph\ScMessages\Controller;
 /**
  * Class ChatController
  *
- * * @package SebastianChristoph\ScChat\Controller
+ * * @package SebastianChristoph\ScMessages\Controller
  */
 class MessagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
@@ -31,17 +31,12 @@ class MessagesController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
      *
      * @return void
      */
-    public function messageAction()
+    public function messagesAction()
     {
         var_dump($_POST);
         $this->view->assignMultiple([
             'test' => $GLOBALS['TSFE']->fe_user->user['username'],
             'testtest' => $GLOBALS['TSFE']->fe_user->user
         ]);
-    }
-
-    public function sendmessageAction()
-    {
-
     }
 }

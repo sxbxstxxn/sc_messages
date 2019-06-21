@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SebastianChristoph\\ScChat\\": "Classes"
+            "SebastianChristoph\\ScMessages\\": "Classes"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SebastianChristoph\\ScChat\\Tests\\": "Tests"
+            "SebastianChristoph\\ScMessages\\Tests\\": "Tests"
         }
     },
     "replace": {
