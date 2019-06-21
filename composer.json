@@ -1,0 +1,29 @@
+{
+    "name": "SebastianChristoph/sc_chat",
+    "type": "typo3-cms-extension",
+    "description": "Creates a very simple chat for frontend users in typo3",
+    "authors": [
+        {
+            "name": "Sebastian Christoph",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SebastianChristoph\\ScChat\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SebastianChristoph\\ScChat\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "sc_chat": "self.version",
+        "typo3-ter/sc_chat": "self.version"
+    }
+}
